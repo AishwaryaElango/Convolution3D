@@ -18,8 +18,9 @@
 
 # How to run and verify the C++ kernel 
 
-Run the shell program
-    ```
+# Run the shell program
+
+  ```
         ./run_all.sh
-    ```
+  ```
 
