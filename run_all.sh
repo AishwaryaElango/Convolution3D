@@ -7,11 +7,10 @@ g++ -o conv_3d conv.cpp -L/home/ubuntu/cnpy -lcnpy -lz --std=c++11
 ./conv_3d
 
 # Run the Python script for inference
-python inference_nchw.py
+python inference.py
 
 # Run the Python script to compare outputs
 python compare.py py_conv_nchw_output.npy out.npy
 
-python inference_nhwc.py
 
-python compare.py py_conv_output_nhwc.npy out2.npy
+python compare.py py_conv_nhwc_output.npy out2.npy
